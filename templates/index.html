@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title> 
+    <!-- <link rel='stylesheet' href="{{ url_for('static',filename='css/index.css') }}" type="text/css"> -->
+    <link rel='stylesheet' href="/static/css/index.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="circle" id="background-circle"></div>
+    <div id="nav-bar-circles">
+        <a href="about"><div class="small-circle" id="about-circle">about</div></a>
+        <a href="cv"><div class="small-circle" id="cv-circle">cv</div></a>
+    </div>
+    <div id="namebar">
+        <h1 id="name">james lian</h1>
+        <h5 id="tagline">2023 Atlas Fellow <br> Senior at Niskayuna HS</h5>
+        <div id="socials">
+            <a href="https://github.com/JamesxGamesYT"><img src="/static/media/Github.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/james-lian-2b0a69278/"><img src="/static/media/Linkedin.png" alt="Linkedin"></a>
+            <a href="mailto:jamesanxinlian@gmail.com"><img src="/static/media/Email.png" alt="Email"></a>
+            <a href="https://www.instagram.com/pbnjam.es/"><img src="/static/media/Instagram.png" alt="Instagram"></a>
+        </div>
+
+    </div>
+    <div id="background-name-circles">
+        <div class="circle" id="circle1"></div>
+        <div class="circle" id="circle2"></div>
+        <div class="circle" id="circle3"></div>
+    </div>
+    <div id="what-if">What if...</div>
+    <div id="features">
+        <div id="gerrymandering">
+            <div id="gerrymandering-image"><img id="gerrymandering-gif" src="/static/media/NC-communities-modified.gif"></div>
+            <a href="/projects/hacking-the-election" id="gerrymandering-text">we could harness <span style="color: orange">algorithms</span> to solve political gerrymandering?</a>
+        </div>
+        <div id="itz">
+            <img id="itz-image" src="/static/media/In-The-Zone.jpg">
+            <a href="/projects/in-the-zone" id="itz-text">we could improve urban greenspace data with <span style="color: #8dc4d7">computer vision</span>?</a>
+        </div>
+    </div>
+    <div id='section-circles'>
+        <a class="section-links" href="art"><div class="large-circle" id="circle4">art</div></a>
+        <a class="section-links" href="blog"><div class="large-circle" id="circle5">blog</div></a>
+        <a class="section-links" href="projects"><div class="large-circle" id="circle6">projects</div></a>
+    </div>
+
+    <div id="footer">Copyright 2024 james lian</div>
+</body>
+</html>
