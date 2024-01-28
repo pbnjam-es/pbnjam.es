@@ -324,10 +324,23 @@ img {
   display: flex;
 }
 
+.large-circle:hover {
+  font-size: calc(max(3.6vw, 12px));
+  width: 24vw;
+  height: 24vw;
+  shape-outside: circle(12vw);
+  clip-path: circle(12vw);
+}
+
 #circle4 {
   background: yellowgreen;
   top: 100px;
   left: calc(15% - 10vw);
+}
+
+#circle4:hover {
+  left: calc(15% - 12vw);
+  top: 78px;
 }
 
 #circle5 {
@@ -336,10 +349,21 @@ img {
   top: 160px; 
 }
 
+#circle5:hover {
+  left: calc(50% - 12vw);
+  top: 138px;
+}
+
 #circle6 {
   background: lightblue;
   left: calc(85% - 10vw);
   top: 100px;
+}
+
+
+#circle6:hover {
+  left: calc(85% - 12vw);
+  top: 78px;
 }
 
 .section-links {
